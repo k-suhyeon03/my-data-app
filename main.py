@@ -1,4 +1,3 @@
-```python
 import streamlit as st
 import requests
 import pandas as pd
@@ -409,4 +408,4 @@ st.bar_chart(
 st.caption(
     "자료 출처: 영화진흥위원회 KOBIS 영화관입장권통합전산망"
 )
-```
+
