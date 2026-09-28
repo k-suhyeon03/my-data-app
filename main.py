@@ -64,7 +64,7 @@ def get_boxoffice_data(target_dt):
     api_key = st.secrets["KOBIS_KEY"]
 
     url = (
-        "https://www.kobis.or.kr/kobisopenapi/webservice/rest/"
+        "https://raw.githubusercontent.com/happykth/data/main/kobis_daily.csv"
         "boxoffice/searchDailyBoxOfficeList.json"
     )
 
